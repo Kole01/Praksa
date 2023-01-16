@@ -1,0 +1,4 @@
+interface IPerson
+{
+    void sayHello();
+}
