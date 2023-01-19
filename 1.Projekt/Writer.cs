@@ -3,7 +3,7 @@ public class Writer:Person
     public int NumberOfBooks;
 
     
-    public Writer(String FirstName, String LastName, int NumberOfBooks){
+    public Writer(string FirstName, string LastName, int NumberOfBooks){
         this.FirstName=FirstName;
         this.LastName=LastName;
         this.NumberOfBooks=NumberOfBooks;

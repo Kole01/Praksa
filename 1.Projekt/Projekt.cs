@@ -56,7 +56,7 @@ namespace Projekt
                         break;
                     case 4:
                         Console.Clear();
-                        listOutput(writerList);
+                        ListOutput(writerList);
                         Console.WriteLine("");
                         Console.Write("Odaberite koji ce pisac krenuti pisati knjigu: ");
                         idWriter = Convert.ToInt32(Console.ReadLine());
@@ -65,7 +65,7 @@ namespace Projekt
 
                     case 5:
                         Console.Clear();
-                        listOutput(writerList);
+                        ListOutput(writerList);
                         Console.WriteLine("");
                         Console.Write("Odaberite koji ce pisac ce pozdraviti: ");
                         idWriter = Convert.ToInt32(Console.ReadLine());
@@ -85,7 +85,7 @@ namespace Projekt
             
         }
 
-        public static void listOutput(List<Writer> writerList){
+        public static void ListOutput(List<Writer> writerList){
             int idWriter = 0; 
             foreach (var writer in writerList)
             {

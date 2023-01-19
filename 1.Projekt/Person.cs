@@ -1,14 +1,14 @@
 public abstract class Person : IPerson
 {
-    private String firstName;
-    public String FirstName
+    private string firstName;
+    public string FirstName
     {
     get { return firstName; }
     set { firstName = value; }
     }
 
-    private String lastName;
-    public String LastName
+    private string lastName;
+    public string LastName
     {
     get { return lastName; }
     set { lastName = value; }
@@ -16,7 +16,7 @@ public abstract class Person : IPerson
 
     public Person(){}
 
-    public Person (String FirstName, String LastName){
+    public Person (string FirstName, string LastName){
         this.FirstName=FirstName;
         this.LastName=LastName;
     }
